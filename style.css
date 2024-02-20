@@ -1,0 +1,107 @@
+/* Figtree Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+  max-width: 400px;
+  width: 100%;
+}
+.main-image {
+  border-radius: 12px;
+  margin-bottom: 22px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 7%);
+  font-weight: 900;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  width: 30%;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+h4 {
+  color: hsl(0, 0%, 50%);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  margin-right: 15px;
+  height: 30px;
+  width: 30px;
+}
+.profile span {
+  font-size: 14px;
+  font-weight: 900;
+  color: hsl(0, 0%, 7%);
+}
+@media (max-width: 375px) {
+  body {
+    height: 110vh;
+  }
+  h1 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .container {
+    max-width: 280px;
+    padding: 15px;
+  }
+  h3, h4 {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 13px;
+    padding: 4px 0px;
+  }
+  .profile span {
+    font-size: 12px;
+  }
+}
+
